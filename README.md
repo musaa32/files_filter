@@ -1,9 +1,8 @@
 # files_filter
-ownCloud App
+ownCloud App https://apps.owncloud.com/content/show.php/files_filter?content=174667
 
-
-File: lib/private/files/filesystem.php
-
+#Changes in Core
+Add this line to lib/private/files/filesystem.php:
 
 ```
 static public function unlockFile($path,$type) {
